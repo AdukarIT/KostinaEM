@@ -1,0 +1,37 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+header {
+    flex: 0 0 auto;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex: 0 0 auto;
+}
+
+.logo-link {
+    display: inline-block;
+}
+
+.user-img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.user-img img {
+    height: 200px;
+    width: auto;
+}
