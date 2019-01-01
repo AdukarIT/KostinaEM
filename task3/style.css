@@ -1,0 +1,127 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+header {
+    flex: 0 0 auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    max-width: 40vw;
+}
+
+.about p {
+    max-width: 75%;
+    margin: 0 auto;
+    padding-bottom: 1em;
+    border-bottom: 2px dashed darkgreen;
+}
+
+.breadcrumbs {
+    padding: 1em;
+}
+
+main {
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+.catalog-table {
+    margin: 0 auto 3vh;
+    border: 1px solid darkgreen;
+    border-collapse: collapse;
+}
+
+.catalog-table img {
+    max-width: 20vw;
+}
+
+.item, .item th, .item td {
+    border: none;
+}
+
+.item img,
+td p {
+    max-width: 40vw;
+}
+
+td, th {
+    border: 1px solid darkgreen;
+    padding: 0.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.desc {
+    max-width: 30vw;
+    text-align: justify;
+}
+
+.stars {
+    width: 70px;
+}
+
+.stars div {
+    height: 12px;
+    background-image: url("img/stars.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.one {
+    background-position: 0 0;
+}
+
+.two {
+    background-position: 0 -13px;
+}
+
+.three {
+    background-position: 0 -26px;
+}
+
+.four {
+    background-position: 0 -39px;
+}
+
+.five {
+    background-position: 0 -52px;
+}
+
+footer {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-top: 2px dashed darkgreen;
+}
+
+ul li {
+    list-style: none;
+}
+
+form {
+    max-width: 40vw;
+    margin: 1em auto;
+}
+
+input, select, textarea {
+    margin: 1em;
+    width: 35vw;
+    max-width: 40vw;
+}
+
+textarea {
+    resize: none;
+}
