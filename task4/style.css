@@ -5,18 +5,27 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    background-color: #fafafa;
 }
 
 header {
     flex: 0 0 auto;
+    text-align: center;
 }
 
 main {
     flex: 1 0 auto;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-flow: column wrap;
     align-items: center;
+    justify-content: center;
+}
+
+.registration {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
 }
 
 footer {
@@ -30,6 +39,16 @@ footer {
     align-items: center;
     margin: 2em;
 }
+
+.logo a {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
 
 .logo span {
     font-size: 2rem;
@@ -48,6 +67,8 @@ footer {
     align-items: center;
     margin: 2em;
     min-height: 15em;
+    max-height: 25em;
+    min-width: 20em;
     outline: 3px dashed cornflowerblue;
 }
 
@@ -61,4 +82,105 @@ form {
 
 input {
     margin: 0.5em 1em;
+    min-width: 20em;
+}
+
+.post {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 2em;
+    background-color: #fff;
+}
+
+.post-wrap {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.user-text-wrap {
+    max-width: 20em;
+    max-height: 28em;
+    padding: 1em;
+    overflow-y: scroll;
+}
+
+.usertext p:first-child {
+    margin-top: 0;
+}
+
+.userinfo-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.userinfo {
+    width: 70px;
+    height: 70px;
+    margin-left: 2em;
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.userphoto {
+    height: 100px;
+    width: auto;
+}
+
+.username {
+    padding: 2em;
+}
+
+.post-image img {
+    max-height: 30em;
+}
+
+.comments ul li {
+    list-style: none;
+}
+
+.comment {
+    resize: none;
+    margin-left: 3em;
+}
+
+button,
+button:active,
+button:focus,
+input[type="submit"],
+input[type="submit"]:active,
+input[type="submit"]:focus {
+    outline: none;
+}
+
+.add-post {
+    width: 10em;
+    height: 3em;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: beige;
+}
+
+input[type="submit"] {
+    width: 10em;
+    height: 2.5em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: dimgray;
+    color: #fafafa;
+}
+
+.back-to-reg {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }

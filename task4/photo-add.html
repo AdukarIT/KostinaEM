@@ -1,10 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adding post</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<header>
+    <div class="logo">
+        <a href="feed.html">
+            <img src="img/logo.png" width="60" alt="main logotype of the page">
+            <span>Instagram</span>
+        </a>
+    </div>
+    <a href="index.html" class="back-to-reg">First time in here? Sign in!</a>
+</header>
+<main>
+    <h2>Add your post!</h2>
+    <form action="feed.html" method="get">
+        <input type="file" id="add-pic">
+        <textarea name="message" id="add-text" cols="40" rows="10" placeholder="Add your message"></textarea>
+        <input type="submit" name="submit" value="Add!">
+    </form>
+</main>
+<footer>
+            <span class="copyright">
+                &copy; Instagram, 2018
+            </span>
+</footer>
 </body>
 </html>
