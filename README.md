@@ -13,3 +13,6 @@
 ## Продвинутый HTML
 [First part](https://github.com/AdukarIT/KostinaEM/tree/master/task4)
 [Second part](https://github.com/AdukarIT/KostinaEM/tree/master/task5)
+
+## CSS. Позиционирование
+[Pop-up window](https://github.com/AdukarIT/KostinaEM/tree/master/pop-up-window)
