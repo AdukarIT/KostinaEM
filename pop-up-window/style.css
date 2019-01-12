@@ -1,0 +1,87 @@
+body {
+    position: relative;
+}
+
+p.text {
+    margin: 0;
+    display: inline;
+}
+
+.pop-up-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /*background-color: rgba(119, 136, 153, 0.5);*/
+    background-color: transparent;
+}
+
+.pop-up {
+    position: fixed;
+    top: calc(50vh - 125px);
+    left: calc(50vw - 175px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+    background-color: darkgray;
+    z-index: 10;
+}
+
+.pop-up > div {
+    width: 330px;
+    height: 230px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.pop-up h2,
+.pop-up p {
+    margin: 0;
+    height: 33%;
+    line-height: 3em;
+    padding-left: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+button,
+button:active,
+button:focus,
+input[type="submit"],
+input[type="submit"]:active,
+input[type="submit"]:focus {
+    outline: none;
+}
+
+.open-button {
+    color: red;
+    font-weight: bold;
+    font-size: 2em;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.close-button {
+    float: right;
+    margin: 1em 2em;
+    background: darkgray;
+    width: 6em;
+    height: 3em;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    line-height: 2em;
+    cursor: pointer;
+}
+
+.closed {
+    display: none;
+}
+
+.opened {
+    display: block;
+}
+
