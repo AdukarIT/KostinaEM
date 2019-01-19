@@ -3,6 +3,10 @@
 2. https://codepen.io/riba0017/pen/YdQQNz
 
 #### [Папка с практическими заданиями](https://github.com/AdukarIT/KostinaEM/tree/master/practice)
+1. [Реферат](https://github.com/AdukarIT/KostinaEM/tree/master/practice/referat)
+2. [Пляж](https://github.com/AdukarIT/KostinaEM/tree/master/practice/beach)
+3. [Лайк - две реализации.](https://github.com/AdukarIT/KostinaEM/tree/master/practice/like)
+4. [Чекбокс](https://github.com/AdukarIT/KostinaEM/tree/master/practice/checkbox)
 
 ## Основы HTML
  [First part of homework](https://github.com/AdukarIT/KostinaEM/tree/master/task2)
@@ -16,3 +20,6 @@
 
 ## CSS. Позиционирование
 [Pop-up window](https://github.com/AdukarIT/KostinaEM/tree/master/pop-up-window)
+
+## Float. Псевдоклассы и составные селекторы
+[Форма заказа](https://github.com/AdukarIT/KostinaEM/tree/master/lesson8)
