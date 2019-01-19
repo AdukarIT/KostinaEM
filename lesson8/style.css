@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header,
+footer {
+    flex: 0 1 auto;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 5em;
+    margin-bottom: 2em;
+    background: lightgray;
+}
+main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 5em;
+    background: lightgray;
+}
+
+footer p {
+    margin: 1em;
+}
+
+/*logo*/
+
+.logo {
+    display: inline-block;
+    padding: 0.2em;
+    font-size: 2em;
+    font-weight: bold;
+    color: crimson;
+}
+
+/*end logo*/
+/*menu*/
+
+li {
+    list-style: none;
+}
+
+li a {
+    display: inline-block;
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1.2em;
+    color: #000;
+    text-decoration: none;
+}
+
+.main-menu {
+    min-width: 70vw;
+}
+
+.main-menu ul:first-child > li {
+    display: inline-block;
+    min-width: 12em;
+}
+
+.main-menu ul:first-child > li {
+    position: relative;
+    background: lightgray;
+}
+
+.main-menu ul:first-child li:hover > ul {
+    display: block;
+    z-index: 30;
+}
+
+ul:not(:first-child) {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background: inherit;
+    z-index: 10;
+}
+
+a:hover {
+    color: crimson;
+}
+
+/*end menu*/
+/*cart-form*/
+
+.delivery-form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 30em;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="submit"],
+textarea {
+    margin: 0.5em 0;
+}
+#comments {
+    width: 100%;
+    resize: none;
+}
+
+.map {
+    display: none;
+    width: 30em;
+    height: auto;
+}
+
+.address {
+    display: none;
+    width: 100%;
+}
+
+#pick:checked + .map {
+    display: block;
+}
+
+#delivery:checked + .address {
+    display: block;
+}
+
+.argeement-wrap {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+}
+.argeement-label {
+    padding-left: 1.2em;
+}
+.argeement {
+    position: absolute;
+    top: 3px;
+}
+
+#button:not(:checked) + .submit-button {
+    color: #a7a7a7;
+    outline: #a7a7a7;
+    pointer-events: none;
+}
+
+/*end cart-form*/

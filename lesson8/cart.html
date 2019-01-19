@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <span class="logo">Electro.by</span>
+        </div>
+        <nav class="main-menu">
+            <ul>
+                <li>
+                    <a href="#">Бытовая техника</a>
+                    <ul>
+                        <li><a href="#">Стиральные машины</a></li>
+                        <li><a href="#">Пылесосы</a></li>
+                        <li><a href="#">Швейные, вышивальные машины</a></li>
+                        <li><a href="#">Утюги</a></li>
+                        <li><a href="#">Электровеники</a></li>
+                        <li><a href="#">Сушилки для обуви</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Техника для кухни</a>
+                    <ul>
+                        <li><a href="#">Холодильники</a></li>
+                        <li><a href="#">Кухонные плиты</a></li>
+                        <li><a href="#">Морозильники</a></li>
+                        <li><a href="#">Настольные плиты</a></li>
+                        <li><a href="#">Ростеры, мини-печи</a></li>
+                        <li><a href="#">Вытяжки</a></li>
+                        <li><a href="#">Микроволновые печи</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Компьютерная техника</a>
+                    <ul>
+                        <li><a href="#">Ноутбуки</a></li>
+                        <li><a href="#">Планшеты</a></li>
+                        <li><a href="#">Компьютеры, моноблоки</a></li>
+                        <li><a href="#">Игровые приставки</a></li>
+                        <li><a href="#">Серверное оборудование</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Корзина</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="cart.html" method="get" class="delivery-form">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="text" name="surname" placeholder="Your surname" required>
+            <input type="tel" name="tel-num" placeholder="Your phone number" required>
+            <div>Способ доставки:<br>
+                <label class="pickup" for="pick">Самовывоз со склада</label>
+                <input type="checkbox" id="pick" value="pickup">
+                <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A51dc6e2c22bda6b9533813b7ecaf08ad17c2cac713f02ce76b8994f423d1c9f0&amp;source=constructor" frameborder="0"></iframe>
+                <br>
+                <label class="delivery" for="delivery">Доставка по Минску</label>
+                <input type="checkbox" id="delivery" value="delivery">
+                <input class="address" type="text" name="address" placeholder="Адрес доставки">
+
+            </div>
+            <label>
+                <textarea name="comment" id="comments" cols="30" rows="10" placeholder="Комментарий к заказу"></textarea>
+            </label>
+            <div class="argeement-wrap">
+                <label class="argeement-label" for="button">Я прочитал и согласен с <a href="#">условиями доставки</a></label>
+                <input type="checkbox" class="argeement" id="button" name="agreement" value="agreement" required>
+                <input class="submit-button" type="submit" name="submit" value="Подтвердить заказ">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="office-address">
+            <p>Адрес офиса: г.Минск, ул.Немига, 5</p>
+            <p>Время работы: с 9.00 до 20.00</p>
+        </div>
+        <div class="contacts">
+            <p>Телефон: +37529 308-88-88</p>
+            <p>Skype: Electroby</p>
+        </div>
+    </footer>
+</body>
+</html>
