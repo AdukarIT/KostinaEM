@@ -13,8 +13,8 @@ p.text {
     left: 0;
     width: 100vw;
     height: 100vh;
-    /*background-color: rgba(119, 136, 153, 0.5);*/
-    background-color: transparent;
+    background-color: rgba(119, 136, 153, 0.5);
+    /*background-color: transparent;*/
 }
 
 .pop-up {
@@ -64,6 +64,39 @@ input[type="submit"]:focus {
     border: none;
 }
 
+.close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    left: 300px;
+    cursor: pointer;
+}
+
+.close::before,
+.close::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 13px;
+    width: 2px;
+    height: 25px;
+    background: lightgray;
+}
+
+.close::before {
+    transform: rotate(45deg);
+}
+
+.close::after {
+    transform: rotate(-45deg);
+}
+
+.close:hover::before,
+.close:hover::after {
+    background: red;
+}
+
 .close-button {
     float: right;
     margin: 1em 2em;
@@ -75,6 +108,10 @@ input[type="submit"]:focus {
     text-align: center;
     line-height: 2em;
     cursor: pointer;
+}
+
+.close-button:hover {
+    background: red;
 }
 
 .closed {
