@@ -7,6 +7,7 @@
 2. [Пляж](https://github.com/AdukarIT/KostinaEM/tree/master/practice/beach)
 3. [Лайк - две реализации.](https://github.com/AdukarIT/KostinaEM/tree/master/practice/like)
 4. [Чекбокс](https://github.com/AdukarIT/KostinaEM/tree/master/practice/checkbox)
+5. [Меню магазина](https://github.com/AdukarIT/KostinaEM/tree/master/practice/menu)
 
 ## Основы HTML
  [First part of homework](https://github.com/AdukarIT/KostinaEM/tree/master/task2)
