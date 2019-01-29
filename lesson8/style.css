@@ -9,11 +9,12 @@ body {
     flex-flow: column nowrap;
     justify-content: space-between;
     height: 100vh;
+    min-width: 500px;
 }
 
 header,
 footer {
-    flex: 0 1 auto;
+    flex: 0 0 auto;
 }
 
 header {
@@ -71,15 +72,12 @@ li a {
 }
 
 .main-menu {
-    min-width: 70vw;
+    min-width: 80vw;
 }
 
 .main-menu ul:first-child > li {
     display: inline-block;
     min-width: 12em;
-}
-
-.main-menu ul:first-child > li {
     position: relative;
     background: lightgray;
 }
@@ -141,15 +139,15 @@ textarea {
     display: block;
 }
 
-.argeement-wrap {
+.agreement-wrap {
     position: relative;
     display: flex;
     flex-flow: column;
 }
-.argeement-label {
+.agreement-label {
     padding-left: 1.2em;
 }
-.argeement {
+.agreement {
     position: absolute;
     top: 3px;
 }
@@ -161,3 +159,35 @@ textarea {
 }
 
 /*end cart-form*/
+
+@media (max-width: 950px) {
+    header {
+        height: 7em;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        flex-flow: column nowrap;
+        height: 15em;
+    }
+
+    .menu-list {
+        display: flex;
+        flex-flow: column nowrap;
+
+    }
+
+    .main-menu ul:first-child li:hover {
+        background: lightblue;
+    }
+
+    .main-menu ul:first-child li:hover > ul {
+        position: absolute;
+        left: 250px;
+        top: 0;
+        width: 300px;
+        background: lightblue;
+    }
+
+}
