@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-nav,
+.main-nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1.2em;
+}
+
+.main-nav {
+    min-height: 4em;
+    background-color: lightseagreen;
+}
+
+.main-nav ul {
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.main-nav ul li {
+    list-style: none;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.burger-button {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .main-nav,
+    .main-nav ul {
+        display: flex;
+        flex-flow: column wrap;
+        min-height: 15em;
+    }
+
+    .closed {
+        display: none;
+    }
+
+    .button-wrapper {
+        min-height: 5em;
+        background-color: lightseagreen;
+    }
+
+    .burger-button {
+        margin: 35px 15px 30px;
+    }
+
+    .burger-button::after,
+    .burger-button::before {
+        content: " ";
+    }
+
+    .burger-button,
+    .burger-button::after,
+    .burger-button::before {
+        display: block;
+        position: absolute;
+        width: 55px;
+        height: 5px;
+        background-color: red;
+    }
+
+    .burger-button::before {
+        top: -20px;
+    }
+
+    .burger-button::after {
+        top: 20px;
+    }
+
+    .btn-close .burger-button {
+        background-color: transparent;
+    }
+
+    .btn-close .burger-button::before {
+        top: 0;
+        transform: rotate(45deg);
+    }
+
+    .btn-close .burger-button::after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+}

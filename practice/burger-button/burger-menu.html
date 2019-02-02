@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="burger-menu.css">
+</head>
+<body>
+    <div class="button-wrapper">
+        <div class="burger-button"></div>
+    </div>
+    <nav class="main-nav closed">
+        <ul>
+            <li><a href="#">Catalog</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </nav>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+    $(document).ready(() => {
+        $('.burger-button').on('click', () => {
+            $('.main-nav').toggleClass('closed');
+            if(!$('.main-nav').hasClass('closed')) {
+                $('.button-wrapper').addClass('btn-close')
+            } else {
+                $('.button-wrapper').removeClass('btn-close')
+            }
+        })
+    })
+</script>
+</html>
