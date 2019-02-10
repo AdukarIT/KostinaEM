@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    margin: 100px 0;
+    transition: transform ease-out 3s;
+}
+
+img:hover {
+    transform: rotate(360deg);
+}
