@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 30px auto;
+    border: 2px solid greenyellow;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    display: block;
+    position: absolute;
+    top: calc(100% - 70px);
+    left: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background: url("img/soccer-ball-png-26384.png") center no-repeat;
+    background-size: contain;
+    transition: transform ease-out 20s, ease 6s;
+}
+
+#ball:checked + label {
+    transform: translateX(730px) rotate(360deg);
+}
+
