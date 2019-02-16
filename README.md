@@ -26,19 +26,19 @@
 ## Float. Псевдоклассы и составные селекторы
 [Форма заказа](https://github.com/AdukarIT/KostinaEM/tree/master/lesson8)
 
-##Flexbox
+## Flexbox
 [Adukar](https://github.com/AdukarIT/KostinaEM/tree/master/flexbox/adukar)<br>
 -----------[VK](https://github.com/AdukarIT/KostinaEM/tree/master/flexbox/vk)
 
-##Эффекты и анимация
+## Эффекты и анимация
 [Прыгающий мяч](https://github.com/AdukarIT/KostinaEM/tree/master/animation/jumping_ball)<br>
 [Вентилятор](https://github.com/AdukarIT/KostinaEM/tree/master/animation/windy)<br>
 -----------[Спрайты]()
 
-##SCSS
+## SCSS
 -----------[Design Club]()
 
-##PixelPlus
+## PixelPlus
 [test 1](https://github.com/AdukarIT/KostinaEM/tree/master/pixelplus/test1) <br>
 -----------[test 2]()<br>
 -----------[test 3]()
