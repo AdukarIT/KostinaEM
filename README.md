@@ -33,7 +33,7 @@
 ## Эффекты и анимация
 [Прыгающий мяч](https://github.com/AdukarIT/KostinaEM/tree/master/animation/jumping_ball)<br>
 [Вентилятор](https://github.com/AdukarIT/KostinaEM/tree/master/animation/windy)<br>
------------[Спрайты]()
+[Спрайты](https://github.com/AdukarIT/KostinaEM/tree/master/animation/ninja/css-animation)
 
 ## SCSS
 -----------[Design Club]()
