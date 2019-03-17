@@ -28,7 +28,7 @@
 
 ## Flexbox
 [Adukar](https://github.com/AdukarIT/KostinaEM/tree/master/flexbox/adukar)<br>
------------[VK](https://github.com/AdukarIT/KostinaEM/tree/master/flexbox/vk)
+[VK](https://github.com/AdukarIT/KostinaEM/tree/master/flexbox/vk)
 
 ## Эффекты и анимация
 [Прыгающий мяч](https://github.com/AdukarIT/KostinaEM/tree/master/animation/jumping_ball)<br>
