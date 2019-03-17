@@ -1,10 +1,213 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Новости</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-$END$
+    <!--HEADER-->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="img/ic_head_logo.svg" alt="main-logo">
+            </a>
+
+            <div class="header-central-block">
+            <label>
+                <input type="search" class="search" placeholder="Поиск" autocomplete="off">
+            </label>
+                <a href="#" class="notify">
+                    <img src="img/ic_head_notify.svg" alt="Notification bell">
+                </a>
+                <a href="#" class="music">
+                    <img src="img/ic_music.svg" alt="Music icon">
+                </a>
+                <div class="fast-play"></div>
+            </div>
+
+            <div class="profile-block">
+                <span class="user-name">Катя</span>
+                <div class="user-avatar"></div>
+                <label class="profile-menu-toggler" for="checkbox"></label>
+                <input type="checkbox" id="checkbox">
+                <ul class="profile-menu">
+                    <li><a href="#">Моя страница</a></li>
+                    <li class="separator"></li>
+                    <li><a href="#">Редактировать</a></li>
+                    <li><a href="#">Настройки</a></li>
+                    <li><a href="#">Помощь</a></li>
+                    <li class="separator"></li>
+                    <li><a href="#">Выйти</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--MAIN CONTENT-->
+    <div class="main-content">
+        <!--LEFT COLUMN-->
+        <aside class="left-column">
+            <ul class="left-menu">
+                <li><span></span><a href="#">Моя Страница</a></li>
+                <li><span></span><a href="#">Новости</a></li>
+                <li><span></span><a href="#">Сообщения</a></li>
+                <li><span></span><a href="#">Друзья</a></li>
+                <li><span></span><a href="#">Группы</a></li>
+                <li><span></span><a href="#">Фотографии</a></li>
+                <li><span></span><a href="#">Музыка</a></li>
+                <li><span></span><a href="#">Видео</a></li>
+                <li><span></span><a href="#">Игры</a></li>
+                <li class="separator"></li>
+                <li><span></span><a href="#">VK Pay</a></li>
+                <li class="separator"></li>
+                <li><span></span><a href="#">Закладки</a></li>
+                <li><span></span><a href="#">Документы</a></li>
+                <li class="separator"></li>
+            </ul>
+            <div class="left-menu-extra">
+                <a href="#">Блог</a>
+                <a href="#">Разработчикам</a>
+                <a href="#">Реклама</a>
+                <a href="#" class="extra-active">Ещё</a>
+                <ul class="extra-down">
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Вакансии</a></li>
+                    <li><a href="#">Правовая информация</a></li>
+                    <li><a href="#">Защита данных</a></li>
+                    <li><a href="#">Центр безопасности</a></li>
+                    <li><a href="#">Язык: русский</a></li>
+                </ul>
+            </div>
+        </aside>
+        <!--CENTRAL CONTENT-->
+        <main>
+            <section class="top-line">
+                <div class="user-avatar"></div>
+                <label>
+                    <input type="text" class="new-event" placeholder="Что у вас нового?" autocomplete="off">
+                </label>
+                <div class="action-buttons">
+                    <a href="#">
+                        <span class="blind-label">Фотография</span>
+                    </a>
+                    <a href="#">
+                        <span class="blind-label">Видеозапись</span>
+                    </a>
+                    <a href="#">
+                        <span class="blind-label">Аудиозапись</span>
+                    </a>
+                    <a href="#">
+                        <span class="blind-label">Статья</span>
+                    </a>
+                </div>
+                <div class="color-button">
+                    <a href="#">
+                        <span class="blind-label">Постер</span>
+                    </a>
+                </div>
+            </section>
+            <section class="stories">
+                <div class="story-header">
+                    <h4>Истории</h4>
+                    <span>Настройки</span>
+                </div>
+                <div class="story-block">
+                    <img src="img/kari-story.png" alt="Кари - новая коллекция" class="story-item">
+                    <img src="img/life-story.png" alt="Новости от Лайфхакера" class="story-item">
+                </div>
+            </section>
+            <section class="news">
+                <div class="news-item">
+                    <div class="item-header">
+                        <div class="group-avatar group1"></div>
+                        <div class="group-title">
+                            <a href="#">Психология &#124 Эзотерика &#124 Йога</a>
+                            <span>13 минут назад</span>
+                        </div>
+                        <div class="group-settings">
+                            <ul>
+                                <li><a href="#">Это не интересно</a></li>
+                                <li><a href="#">Пожаловаться</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item-content news1">
+                        <div class="content">
+                            <h2>Милое чудовище</h2>
+                            <span>Психология &#124 Эзотерика &#124 Йога</span>
+                            <a href="https://vk.com/@sumasoshli-miloe-chudovische" class="more-btn" target="_blank">Читать</a>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <div class="icons">
+                            <a href="#" class="like-btn btn"></a>
+                            <a href="#" class="comment-btn btn"></a>
+                            <a href="#" class="share-btn btn"></a>
+                        </div>
+                        <div class="counter">
+                            <a href="#" class="sight-counter">1.4K</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <div class="item-header">
+                        <div class="group-avatar group2"></div>
+                        <div class="group-title">
+                            <a href="#">Психоанализ</a>
+                            <span>сегодня в 13:15</span>
+                        </div>
+                        <div class="group-settings">
+                            <ul>
+                                <li><a href="#">Это не интересно</a></li>
+                                <li><a href="#">Пожаловаться</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item-content news2">
+                        <div class="content"></div>
+                    </div>
+                    <div class="item-footer">
+                        <div class="icons">
+                            <a href="#" class="like-btn btn"></a>
+                            <a href="#" class="comment-btn btn"></a>
+                            <a href="#" class="share-btn btn"></a>
+                        </div>
+                        <div class="counter">
+                            <a href="#" class="sight-counter">23K</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--RIGHT COLUMN-->
+        <aside class="right-column">
+            <ul class="filter-menu">
+                <li>
+                    <a href="#">Новости</a>
+                    <span class="filters"></span>
+                    <ul class="inner-filter-menu">
+                        <li><a href="#">Фотографии</a></li>
+                        <li><a href="#">Видеозаписи</a></li>
+                        <li><a href="#">Подкасты</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Рекомендации</a></li>
+                <li><a href="#">Поиск</a></li>
+                <li class="separator"></li>
+                <li><a href="#">Понравилось</a></li>
+                <li><a href="#">Обновления</a></li>
+                <li><a href="#">Комментарии</a></li>
+            </ul>
+            <div class="filter-block">
+                <label for="news-filter">Сначала интересные</label>
+                <input type="checkbox" id="news-filter" checked>
+                <div class="filter-toggle"></div>
+            </div>
+        </aside>
+    </div>
 </body>
 </html>
