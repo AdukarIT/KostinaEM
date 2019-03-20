@@ -36,9 +36,14 @@
 [Спрайты](https://github.com/AdukarIT/KostinaEM/tree/master/animation/ninja/css-animation)
 
 ## SCSS
------------[Design Club]()
+[Design Club](https://github.com/AdukarIT/KostinaEM/tree/master/design-club)
 
 ## PixelPlus
 [test 1](https://github.com/AdukarIT/KostinaEM/tree/master/pixelplus/test1) <br>
 -----------[test 2]()<br>
 -----------[test 3]()
+
+#JS
+
+[JS-practice](https://github.com/AdukarIT/KostinaEM/tree/master/js_practice)
+
