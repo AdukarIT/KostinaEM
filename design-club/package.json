@@ -1,0 +1,27 @@
+{
+  "name": "design-club",
+  "version": "1.0.0",
+  "description": "1. https://codepen.io/riba0017/pen/oJwwLR\r 2. https://codepen.io/riba0017/pen/YdQQNz",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-clean": "^0.4.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdukarIT/KostinaEM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdukarIT/KostinaEM/issues"
+  },
+  "homepage": "https://github.com/AdukarIT/KostinaEM#readme"
+}

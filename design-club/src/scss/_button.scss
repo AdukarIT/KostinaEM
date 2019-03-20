@@ -1,0 +1,26 @@
+a.join-btn {
+  display: block;
+  margin-top: 2em;
+  padding: 0.5em 3.5em;
+  background: #000;
+  border-radius: 0.3em;
+  border: 0;
+  color: #eff0f1;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+  transition: ease-out 1s;
+}
+
+a.join-btn:hover {
+  background: #646464;
+}
+
+@media (max-width: 1200px) {
+  a.join-btn {
+    padding: 1.5em 3.5em;
+  }
+}
