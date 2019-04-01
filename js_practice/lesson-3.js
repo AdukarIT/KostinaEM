@@ -35,10 +35,11 @@ let number;
 //     console.log('does not exist');
 // }
 
+//2
+// Создайте функцию repeat(str, n), которая возвращает строку,
+// состоящую из n повторений строки str. По умолчанию n=2, str — пустая строка.
 
-// bla
-
-function repeat(input, count) {
+function repeat(input, count=2) {
     let result = '';
     for(let i = 0; i < count; i++) {
         result += input;
@@ -46,9 +47,11 @@ function repeat(input, count) {
     return result;
 }
 
-// console.log(repeat('ba', 3));
+// console.log(repeat('bla', 10));
 
 //3
+//Создайте функцию, которая принимает два аргумента – количество учеников в классе и количество парт
+// в кабинете. Функция возвращает строку вида «не хватает 2 парт» / «1 лишняя парта».
 
 function checkDesks(studsCount, deskCount) {
     let maxStudCount = deskCount * 2;
@@ -66,6 +69,8 @@ function checkDesks(studsCount, deskCount) {
 // console.log(checkDesks(7, 6));
 
 //4
+//Создайте функцию, которая получает в качестве аргумента оценку по 10-балльной шкале. Для ошибочных
+// аргументов (0, «B») функция возвращает текстовую ошибку, для верных – их текстовое описание:
 
 function grading(grade) {
     switch (grade) {
@@ -103,6 +108,8 @@ function grading(grade) {
 // console.log(grading(10));
 
 //5
+//Используя цикл do..while, создайте функцию, которая принимает
+// числа через prompt(), пока не будет введено число 0.
 
 function getNull() {
     let num;
@@ -115,6 +122,8 @@ function getNull() {
 // console.log(getNull());
 
 //6
+//Перепишите функцию из задачи 5 так, чтобы она принимала числа, пока их сумма остаётся
+// меньше 100, выводила эту сумму в консоль, а возвращала количество введённых чисел.
 
 function getNum() {
     let sum = 0;
@@ -130,6 +139,7 @@ function getNum() {
 // console.log(getNum());
 
 //7
+//Создайте функцию, которая принимает число в качестве аргумента и проверяет, является ли это число простым.
 
 // let userNumber = parseInt(prompt("enter the number"));
 function isSimple(arg){
@@ -145,6 +155,9 @@ function isSimple(arg){
 // console.log(isSimple(userNumber));
 
 //8
+//Создайте функцию, которая принимает в качестве аргумента целое число, соответствующее
+// порядковому номеру месяца. Если месяц с таким номером существует, функция возвращает
+// имя сезона (лето, осень, зима, весна), к которому относится месяц. Если нет –сообщение об ошибке.
 
 let monthNumber;
 function partOfTheYear(monthNumber) {
@@ -165,6 +178,8 @@ function partOfTheYear(monthNumber) {
 // console.log(partOfTheYear(monthNumber));
 
 //9
+//Создайте функцию, которая выводит в консоль числа от 10 до 99,
+// заканчивающиеся на 7 или делящиеся на 7 (в убывающем порядке).
 
 let seven = () => {
     for(let s = 99; s >= 10; s--) {
@@ -177,6 +192,7 @@ let seven = () => {
 // seven();
 
 //10
+//Создайте функцию, которая для чисел от 2 до 20 выводит в консоль все их делители.
 
 function devideByTwo() {
     do {
@@ -195,6 +211,7 @@ function devideByTwo() {
 // devideByTwo();
 
 //11
+//Решите задачу 10 в общем виде: вместо 2 и 20 – аргументы x и y.
 
 function devideByTwo2(x, y) {
     do {
@@ -213,6 +230,9 @@ function devideByTwo2(x, y) {
 // devideByTwo2(2, 29);
 
 //12
+//Создайте функцию с параметрами size (число) и unit (строка). В unit передаются единицы
+// измерения информации («Кб», «Мб», «Гб»), в size – количество таких единиц.
+// Функция возвращает количество байт в size.
 
 //1мб = 1024*1024
 //1кб = 1024
@@ -240,7 +260,7 @@ function whatSize(unit=1, size) {
 // console.log(whatSize('Гб', 1));
 
 //13
-
+//Создайте функцию, которая ищет наибольший общий делитель двух чисел.
 
 
 function NOD(x, y) {
@@ -258,6 +278,7 @@ function NOD(x, y) {
 // console.log(NOD(16, 32));
 
 //14
+//Решите задачу 13 через рекурсию.
 
 function NOD2(x, y) {
     if(! y) {
@@ -270,6 +291,8 @@ function NOD2(x, y) {
 
 
 //15
+//Создайте функцию words(),  которая в зависимости от переданного в нее целого числа n,
+// будет выводить слово «карандаш» в правильной форме («12 карандашей», но «22 карандаша»).
 
 function words() {
     number = parseInt(prompt("введите число"));
@@ -285,6 +308,7 @@ function words() {
 // console.log(words());
 
 //16
+//Создайте функцию, которая проверяет, можно ли представить число в виде суммы квадратов двух целых однозначных чисел.
 
 
 function math() {
