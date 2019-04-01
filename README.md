@@ -43,7 +43,7 @@
 -----------[test 2]()<br>
 -----------[test 3]()
 
-#JS
+# JS
 
 [JS-practice](https://github.com/AdukarIT/KostinaEM/tree/master/js_practice)
 
