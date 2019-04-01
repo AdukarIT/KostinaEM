@@ -242,6 +242,9 @@ a.join-btn:hover {
         width: 17em;
         margin-right: -2em; }
 
+.bottom-button {
+  display: none; }
+
 @media (max-width: 1200px) {
   .wrapper {
     position: relative;
@@ -301,5 +304,48 @@ a.join-btn:hover {
   .bottom-button {
     display: block; }
     .bottom-button .join-btn {
-      margin: 2em 35% 0 35%;
+      margin: 2em auto 0;
       width: 200px; } }
+
+@media (max-width: 1000px) {
+  .wrapper .section-item {
+    font-size: 1.8em; }
+  .wrapper .left-container .section-item:first-of-type {
+    margin-top: 2em; }
+  .wrapper .left-container .section-item {
+    margin-bottom: 10.5em; }
+    .wrapper .left-container .section-item h3 {
+      padding-left: 20%; }
+    .wrapper .left-container .section-item span {
+      left: 1em; }
+    .wrapper .left-container .section-item p {
+      padding-left: 0; }
+  .wrapper .central-container .logo-container p:first-of-type {
+    font-size: 10.8em; }
+  .wrapper .central-container .logo-container p:nth-of-type(2) {
+    font-size: 6.2em; }
+  .wrapper .central-container .logo-container .logo-image {
+    width: 45em; }
+  .wrapper .central-container .text-container p {
+    width: auto; }
+  .wrapper .central-container .text-container a.join-btn {
+    margin-top: 2em;
+    padding: 1em 1.5em;
+    font-size: 3.5em; }
+  .wrapper .central-container .social-container {
+    flex-wrap: wrap; }
+    .wrapper .central-container .social-container a {
+      font-size: 1.3em; }
+    .wrapper .central-container .social-container a:hover {
+      font-size: 1.3em; }
+  .wrapper .right-container .section-item:first-of-type {
+    margin-top: 12em; }
+  .wrapper .right-container .section-item {
+    margin-bottom: 10em; }
+    .wrapper .right-container .section-item h3 {
+      padding-right: 20%; }
+    .wrapper .right-container .section-item span {
+      left: unset;
+      right: 1em; }
+    .wrapper .right-container .section-item p {
+      padding-right: 0; } }
