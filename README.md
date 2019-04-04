@@ -43,7 +43,33 @@
 -----------[test 2]()<br>
 -----------[test 3]()
 
+## Итоговый проект по верстке
+-----------[themeton]()
+
 # JS
 
-[JS-practice](https://github.com/AdukarIT/KostinaEM/tree/master/js_practice)
+### Введение в js
+[практика](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/lesson-1.js)
+
+### Операторы. Циклы
+[практика](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/lesson-2.js)<br>
+[домашнее задание](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/hw-2.js)
+
+### Функции
+[практика](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/practice_func.js)<br>
+[домашнее задание](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/hw-func.js)
+
+### Отладка кода
+[практика](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/lesson-3.js)
+
+### Массивы
+-----[практика](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/practice-arr.js)<br>
+-----------[домашнее задание]()
+
+### Объекты
+-----------[практика]()<br>
+-----------[домашнее задание]()
+
+
+
 
