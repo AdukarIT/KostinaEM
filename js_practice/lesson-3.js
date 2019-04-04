@@ -1,7 +1,3 @@
-/*
- * ФУНКЦИИ
- */
-
 
 //variables
 let number;
@@ -19,21 +15,24 @@ let number;
 // console.log(recursivePower(2, 4));
 
 
-// homework
-//
-// function isItTriangle(a, b, c) {
-//     return (a*a + b*b === c*c);
-// }
-//
-// let x = prompt('1 catet');
-// let y = prompt('2 catet');
-// let z = prompt('hupotenuse');
-//
-// if(isItTriangle(x, y, z)) {
-//     console.log('thiangle exist');
-// } else {
-//     console.log('does not exist');
-// }
+// 1
+//Создайте функцию, которая принимает три числа: два первых должны быть длиной сторон
+// катетов прямоугольного треугольника, а третье – длиной гипотенузы. Функция возвращает
+// true, если такой прямоугольный треугольник возможен, и false, если нет.
+
+function isItTriangle(a, b, c) {
+    return (a*a + b*b === c*c);
+}
+
+let x = prompt('1 catet');
+let y = prompt('2 catet');
+let z = prompt('hupotenuse');
+
+if(isItTriangle(x, y, z)) {
+    console.log('thiangle exist');
+} else {
+    console.log('does not exist');
+}
 
 //2
 // Создайте функцию repeat(str, n), которая возвращает строку,
