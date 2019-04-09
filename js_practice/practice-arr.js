@@ -1,4 +1,3 @@
-//variables
 
 //1
 // Создайте массив и в цикле заполните его чётными числами от 2 до 20.
@@ -61,9 +60,23 @@ for(let i = 0; i < len / 2; i++) {
 let arr = [];
 
 function ArrPower(a) {
-
+    for(let i = 1; i < 36; i++) {
+        arr[i - 1] = i;
+    }
+    let first = arr.splice(0, 10);
+    let second = arr.concat(first);
+    let third = second.slice(10, 20);
+    third.reverse();
+    for(let j = 0; j < third.length; j++) {
+       second[j + 11] = third[j];
+    }
+    second.splice(21, 5, 2 ** 1, 2 ** 2, 2 ** 3, 2 ** 4, 2 ** 5);
+    second.splice(26, 5, 1, 1, 1, 1, 1);
+    let str = second.slice(30, 35);
+    second.splice(30, 5, str.join(' '));
+    return second;
 }
-// console.log(ArrPower(arr));
+console.log(ArrPower(arr));
 
 //6
 //Напишите функцию, которая удаляет из массива повторяющиеся элементы и возвращает обновлённый массив.
@@ -91,4 +104,4 @@ function deletion2(del) {
     }
     return newArr;
 }
-console.log(deletion2([1, -5, 6, 0, 8, '']));
+// console.log(deletion2([1, -5, 6, 0, 8, '']));
