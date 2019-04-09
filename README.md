@@ -63,10 +63,15 @@
 [практика](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/lesson-3.js)
 
 ### Массивы
------[практика](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/practice-arr.js)<br>
------------[домашнее задание]()
+[практика](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/practice-arr.js)<br>
+[домашнее задание](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/hw-arr.js)
 
 ### Объекты
+-----------[практика]()<br>
+-----------[домашнее задание]()
+
+### Встроенные возможности JS
+
 -----------[практика]()<br>
 -----------[домашнее задание]()
 
