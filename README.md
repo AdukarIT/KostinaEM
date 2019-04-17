@@ -67,14 +67,23 @@
 [домашнее задание](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/hw-arr.js)
 
 ### Объекты
------------[практика]()<br>
------------[домашнее задание]()
+[практика](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/practice-obj.js)<br>
+[домашнее задание](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/hw-obj.js)
 
 ### Встроенные возможности JS
 
+[практика](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/practice-method.js)<br>
+--[домашнее задание](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/hw-method.js)
+
+### Продвинутый JS
+
 -----------[практика]()<br>
 -----------[домашнее задание]()
 
+### DOM. Работа со страницей
+
+-----------[практика]()<br>
+-----------[домашнее задание]()
 
 
 
