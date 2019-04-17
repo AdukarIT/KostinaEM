@@ -3,17 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <!--ВВЕДЕНИЕ В JS-->
     <!--<script src="lesson-1.js"></script>-->
+
+    <!--ОПЕРАТОРЫ. ЦИКЛЫ-->
     <!--<script src="lesson-2.js"></script>-->
     <!--<script src="hw-2.js"></script>-->
-    <!--<script src="lesson-3.js"></script>-->
-    <!--<script src="practice_func.js"></script>-->
+
+    <!--ФУНКЦИИ-->
     <!--<script src="hw-func.js"></script>-->
+    <!--<script src="practice_func.js"></script>-->
+
+    <!--ОТЛАДКА КОДА-->
+    <!--<script src="lesson-3.js"></script>-->
+
+    <!--МАССИВЫ-->
     <!--<script src="practice-arr.js"></script>-->
-    <script src="hw-arr.js"></script>
+    <!--<script src="hw-arr.js"></script>-->
+
+    <!--ОБЪЕКТЫ-->
+    <!--<script src="practice-obj.js"></script>-->
+    <!--<script src="hw-obj.js"></script>-->
+
+    <!--ВСТРОЕННЫЕ ВОЗМОЖНОСТИ-->
     <!--<script src="practice-method.js"></script>-->
+    <script src="hw-method.js"></script>
+
+    <!--ПРОДВИНУТЫЙ JS-->
+
+    <!--СОБЫТИЯ. КООРДИНАТЫ НА СТРАНИЦЕ-->
 </head>
 <body>
+    <form name="search">
+        <label>Поиск по сайту:
+            <input type="text" name="search">
+        </label>
+        <input type="submit" value="Искать!">
+    </form>
+    <hr>
+    <form name="search-person"> Поиск по посетителям:
+        <table id="age-table">
+            <tr>
+                <td>Возраст:</td>
+                <td id="age-list">
+                    <label> <input type="radio" name="age" value="young">до 18</label>
+                    <label> <input type="radio" name="age" value="mature">18-50</label>
+                    <label> <input type="radio" name="age" value="senior">более 50</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Дополнительно:</td>
+                <td>
+                    <input type="text" name="info[0]">
+                    <input type="text" name="info[1]">
+                    <input type="text" name="info[2]">
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Искать!">
+    </form>
 
+    <!--DOM. РАБОТА СО СТРАНИЦЕЙ-->
+    <!--<script src="practice-dom.js"></script>-->
 </body>
 </html>
