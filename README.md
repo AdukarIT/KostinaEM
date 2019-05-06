@@ -77,8 +77,8 @@
 //10
 ### Продвинутый JS
 
-[практика](practice-upjs.js)<br> 
---[домашнее задание](hw-upjs.js)
+[практика](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/practice-upjs.js)<br> 
+--[домашнее задание](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/hw-upjs.js)
 //6
 ### DOM. Работа со страницей
 
