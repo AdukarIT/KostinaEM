@@ -130,22 +130,53 @@ function shagovita(str) {
     }
     return newStr;
 }
-console.log(shagovita("я учусь программированию"));
+// console.log(shagovita("я учусь программированию"));
 
 //8
 // Напишите функцию, которая возвращает текущий день недели на русском языке.
 
+let now = new Date();
+function todayIs(date) {
+    let week = ['Воскресение', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'];
+    return week[date.getDay()];
+}
+// console.log(todayIs(now));
 
 //9
 // Напишите функцию, которая принимает у пользователя дату в формате "ДД-ММ-ГГГГ" и,
 // используя функцию из задачи 8, выдаёт в консоль день недели для этой даты.
 
+function weekDay(userDate) {
+    let dateNow = userDate.split('-').join('');
+    let finalDate = new Date(dateNow.slice(4), dateNow.slice(2, 4) - 1, dateNow.slice(0, 2));
+    return todayIs(finalDate)
+}
+// console.log(weekDay(userDate = prompt('введите дату в формате "ДД-ММ-ГГГГ"')));
 
 //10
 // Примите у пользователя день его рождения в формате "ДД-ММ-ГГГГ". Напишите функцию,
 // которая выводит в консоль количество дней, оставшихся до его дня рождения. Напишите
 // функцию, которая возвращает дату, в которую пользователь отметит ближайший
 // 1000-дневный юбилей (например, 11000 дней).
+
+function hbDay(date) {
+    let newDate = new Date();
+    let oneDay = 86400000; //количество милисекунд в одном дне
+    let userDate = date.split('-').join('');
+
+    let finalDate = new Date(newDate.getFullYear() + 1, userDate.slice(2, 4) - 1, userDate.slice(0, 2));
+    let result = Math.round((finalDate - newDate) / oneDay);
+    // console.log(`До следующего дня рождения осталось ${result} дней`);
+
+    let user = new Date(userDate.slice(4), userDate.slice(2, 4) - 1, userDate.slice(0, 2));
+    let smt = 1000 - result % 1000;
+    console.log(smt);
+    console.log(user);
+    console.log(finalDate);
+    console.log(user.getTime() / (oneDay * 1000));
+}
+hbDay('14-03-1991');
+// console.log(hbDay(date = prompt('введите дату в формате "ДД-ММ-ГГГГ"')));
 
 //11
 // Напишите функцию, которая принимает число, проверяет, является ли оно квадратом
@@ -155,6 +186,31 @@ console.log(shagovita("я учусь программированию"));
 // и выводя в консоль сообщения и о них, и об успешных результатах. Массив должен
 // быть пройден до конца, несмотря на ошибки!
 
+function getRandomArray2(len, min, max){
+    let arr = [];
+    for(let i = 0; i < len; i++){
+        arr[i] = Math.ceil(Math.random() * (max - min + 1)) + min - 1;
+    }
+    return arr;
+}
+
+function isSquare(arr) {
+    let a;
+    arr.forEach((item, i, arr) => {
+        a = Math.sqrt(arr[i]);
+        try {
+            if((a ^ 0) === a) {
+                console.log(a);
+            } else {
+                throw new Error (`${a} не является целым корнем`);
+            }
+        } catch (e) {
+            console.log(e);
+        }
+
+    });
+}
+// isSquare(getRandomArray2(10, 1, 20));
 
 
 
