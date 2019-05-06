@@ -74,16 +74,30 @@
 
 [практика](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/practice-method.js)<br>
 --[домашнее задание](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/hw-method.js)
-
+//10
 ### Продвинутый JS
 
------------[практика]()<br>
------------[домашнее задание]()
-
+[практика](practice-upjs.js)<br> 
+--[домашнее задание](hw-upjs.js)
+//6
 ### DOM. Работа со страницей
 
------------[практика]()<br>
------------[домашнее задание]()
+-----------[практика](practice-dom.js)<br>
+-----------[домашнее задание](hw-dom.js)
 
+### События. Координаты на странице
+
+-----------[практика](practice-events.js)<br>
+-----------[домашнее задание](hw-events.js)
+
+### Формы
+
+-----------[практика](practice-forms.js)<br>
+-----------[домашнее задание](hw-forms.js)
+
+### ООП в Javascript
+
+-----------[практика](practice-oop.js)<br>
+-----------[домашнее задание](hw-oop.js)
 
 
