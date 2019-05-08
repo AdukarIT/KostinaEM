@@ -82,8 +82,8 @@
 //6
 ### DOM. Работа со страницей
 
------------[практика](practice-dom.js)<br>
------------[домашнее задание](hw-dom.js)
+[практика](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/practice-dom.js)<br>
+[домашнее задание](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/hw-dom.js)
 
 ### События. Координаты на странице
 
