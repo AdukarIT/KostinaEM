@@ -100,4 +100,6 @@
 -----------[практика](practice-oop.js)<br>
 -----------[домашнее задание](hw-oop.js)
 
+### Projects
 
+-----------[Vinyl Store](https://github.com/AdukarIT/KostinaEM/tree/master/js_project)
