@@ -63,26 +63,32 @@ footer {
     min-width: 350px;
     max-width: 600px;
     height: 600px;
-    background: lightpink;
-
+    padding: 25px;
+    background: #eee;
+    border-radius: 10px;
 }
 
 .close {
     display: none;
 }
 
+.pop-up-window::before,
+.pop-up-window::after {
+    content: "";
+    position: absolute;
+    top: 23px;
+    right: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background: #000;
+}
 
+.pop-up-window::before {
+    transform: rotate(45deg);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.pop-up-window::after {
+    transform: rotate(-45deg);
+}
 
