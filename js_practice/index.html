@@ -36,7 +36,7 @@
 
     <!--СОБЫТИЯ. КООРДИНАТЫ НА СТРАНИЦЕ-->
     <!--<script src="practice-events.js"></script>-->
-    <!--<script src="hw-events.js"></script>-->
+    <script src="hw-events.js"></script>
 
     <!--ФОРМЫ-->
     <!--<script src="practice-forms.js"></script>-->
@@ -46,6 +46,38 @@
     <!--<script src="practice-oop.js"></script>-->
     <!--<script src="hw-oop.js"></script>-->
 
+    <!--AJAX-->
+    <!--<script src="practice-server.js"></script>-->
+    <!--<script src="hw-server.js"></script>-->
+    <style>
+        .block-for-mouse {
+            width: 150px;
+            height: 150px;
+            background-color: lightgreen;
+            border: 2px solid crimson;
+        }
+
+        .folder-block {
+            width: 150px;
+            height: 150px;
+            background: transparent url("img/closed-file.png") center no-repeat / cover;
+        }
+
+        .square-circles {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border: 1px solid crimson;
+            background-color: lightseagreen;
+            transition: border-radius ease .5s;
+        }
+
+        #levitate-box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
     <form name="search">
@@ -105,8 +137,25 @@
         <div class="inner-text-html">inner class</div>
     </div>
 
+    <div class="block-for-mouse"></div>
+    <p>
+        x: <span class="xCord"></span>
+        y: <span class="yCord"></span>
+    </p>
+
+    <div class="folder-block"></div>
+
+    <div class="container-of-divs"></div>
+
+    <div id="levitate-box">hello</div>
+    <br>
+    <br>
+
+    <img class="picture" src="img/night.jpg" alt="night"><br>
+
+
     <!--<script src="practice-dom.js"></script>-->
-    <script src="hw-dom.js"></script>
+    <!--<script src="hw-dom.js"></script>-->
 
 </body>
 </html>
