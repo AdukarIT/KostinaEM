@@ -7,6 +7,7 @@
 html,
 body {
     height: 100%;
+    min-width: 600px;
 }
 
 .wrapper {
@@ -69,7 +70,7 @@ header {
 }
 
 aside {
-    min-width: 25%;
+    min-width: 200px;
     float: left;
     min-height: 100%;
     outline: 2px solid blue;
@@ -79,7 +80,7 @@ aside {
     float: left;
     min-height: 100%;
     width: 100%;
-    max-width: 75%;
+    max-width: calc(100% - 200px);
     outline: 1px solid black;
 }
 

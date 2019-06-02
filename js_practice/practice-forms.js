@@ -12,7 +12,7 @@ select.addEventListener('change', () => {
     if(select.selectedIndex == 4) {
         alert(select.options[4].innerHTML)
     }
-})
+});
 
 //2
 //Создайте форму вычисления процентов по вкладу:
@@ -26,16 +26,17 @@ select.addEventListener('change', () => {
 function isThreeDots(str) {
     return str.match(/\.{3}/g);
 }
-console.log(isThreeDots('создайте ...селект с нес...колькими. опциями, ... добавьте одну.. опцию... '));
+// console.log(isThreeDots('создайте ...селект с нес...колькими. опциями, ... добавьте одну.. опцию... '));
 
 //2
 // Создайте regexp, который ищет все положительные числа, в том числе десятичные.
 
 function isNumber(str) {
-    return str.match(/\d[.,]\d+/g);
-}
-console.log(isNumber('соз0,8дайте 125селект с нес3коль-5кими. -2 опциями, 0.5 добавьте одну2 опц-0.11ию'));
+    // return str.match(/\d[.,]\d+/g);
+    return str.match(/\d*\.?\d+/g);
 
+}
+console.log(isNumber('соз0,8дайте 125селект с нес3коль-5кими. -2 опциями, 0.5 доба.980вьте одну2 опц-0.11ию'));
 //3
 //Создайте регулярку, которая ищет цвета в формате #eee, #eeeddd
 

@@ -1,11 +1,10 @@
-
-let bd = [
+export let bd = [
     {
         "id": 1,
         "singer": "Pink Floyd‎",
         "photo": "url('bd-img/1.jpg')",
         "album": "Delicate Sound Of Thunder",
-        "country": "USSR",
+        "country": "UK",
         "releaseYear": 1989,
         "styleOfMusic": [
             "Rock",
@@ -360,4 +359,14 @@ let bd = [
         ]
     }
 ];
+
+export let rusBd =
+    {
+        "singer": "Исполнитель",
+        "album": "Альбом",
+        "country": "Страна",
+        "releaseYear": "Год записи",
+        "styleOfMusic": "Стиль музыки",
+        "songs": "Трэклист"
+    };
 

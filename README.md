@@ -87,13 +87,13 @@
 
 ### События. Координаты на странице
 
------------[практика](practice-events.js)<br>
------------[домашнее задание](hw-events.js)
+[практика](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/practice-events.js)<br>
+--[домашнее задание](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/hw-events.js)
 
 ### Формы
 
------------[практика](practice-forms.js)<br>
------------[домашнее задание](hw-forms.js)
+--------[практика](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/practice-forms.js)<br>
+-----------[домашнее задание](https://github.com/AdukarIT/KostinaEM/blob/master/js_practice/hw-forms.js)
 
 ### ООП в Javascript
 
